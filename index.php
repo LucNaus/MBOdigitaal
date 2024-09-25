@@ -30,6 +30,8 @@ require __DOCUMENTROOT__ . '/errors/default.php';
 require __DOCUMENTROOT__ . '/models/Educations.php';
 $educations = Education::selectAll();
 
+
+
 // 4. VIEWS OPHALEN (REDIRECT)
 // De view voor de homepage wordt hier opgehaald.
 // Dit wordt de titel van de homepagina.

@@ -28,6 +28,9 @@
                 <button
                     class="w-1/2 py-4 text-center font-medium text-gray-700 bg-gray-100 rounded-tr-lg focus:outline-none active:bg-gray-200"
                     onclick="openTab(event, 'tab4')">Challenge 27</button>
+                    <button
+                    class="w-1/2 py-4 text-center font-medium text-gray-700 bg-gray-100 rounded-tr-lg focus:outline-none active:bg-gray-200"
+                    onclick="openTab(event, 'tab5')">Keuzedelen</button> 
             </div>
             <div id="tab1" class="tabcontent p-4">
                 <?php require 'challenges-tab1.inc.php' ?>
@@ -40,6 +43,9 @@
             </div>
             <div id="tab4" class="tabcontent p-4 hidden">
                 <?php require 'challenges-tab4.inc.php' ?>
+            </div>
+            <div id="tab5" class="tabcontent p-4 hidden">
+                <?php require 'challenges-tab5.inc.php' ?>
             </div>
         </div>
 

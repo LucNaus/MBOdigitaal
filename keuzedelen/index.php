@@ -19,10 +19,14 @@ require_once __DOCUMENTROOT__ . '/errors/default.php';
 // Controleren of de pagina is aangeroepen met behulp van een link (GET).
 // Op dit moment hier niet van toepassing.
 
+// Haal de data op via het model
+require __DOCUMENTROOT__ . '/models/Keuzedelen.php';
+$keuzedelen = Keuzedeel::selectAll();
 
 // 3. CONTROLLER FUNCTIES
 // Hier vinden alle acties plaats die moeten gebeuren om de juiste
 // informatie te bewerken.
+
 
 
 // 4. VIEWS OPHALEN
@@ -30,3 +34,9 @@ require_once __DOCUMENTROOT__ . '/errors/default.php';
 // $title is de titel van de html pagina.
 $title = "Challenges keuzedelen";
 require __DOCUMENTROOT__ . '/views/keuzedelen/challenges.php';
+
+
+
+
+
+
