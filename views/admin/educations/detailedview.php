@@ -11,7 +11,7 @@
     <div class="mt-6 mx-auto px-4 bg-stone-950">
         <?php require $_SERVER['DOCUMENT_ROOT'] . '/views/admin/templates/menu.php' ?>
         <div class="p-6 text-medium text-stone-50 rounded w-full md:w-3/5 lg:w-2/5 min-h-screen">
-            <h3 class="text-lg font-bold text-stone-100 text-white mb-2">Opleiding overzicht</h3>
+            <h3 class="text-lg font-bold text-stone-100 text-white mb-2">Keuzedelen overzicht</h3>
             <p class="mb-2"></p>
             <form method="GET" action="<?php echo $editUrl ?>">
                 <input type="hidden" name="id" value="<?php echo $id ?>">
@@ -31,11 +31,11 @@
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                     <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="name">
-                        Crebo nummer
+                        Code
                     </label>
                 </div>
                 <div class="md:w-2/3">
-                    <?php echo isset($creboNumber) ? $creboNumber : "" ?>
+                    <?php echo isset($code) ? $code : "" ?>
                 </div>
             </div>
             <div class="md:flex md:items-center mb-6">
