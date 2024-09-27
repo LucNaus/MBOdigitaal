@@ -4,7 +4,7 @@ services:
   php:
     build: .
     ports:
-      - "7000:80"
+      - "5555:80"
     volumes:
       - .:/var/www/html
     depends_on:
@@ -20,5 +20,13 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
 
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 5556:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=mysql
 volumes:
   mysql_data:

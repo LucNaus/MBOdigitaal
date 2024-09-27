@@ -23,6 +23,18 @@
     </div>
 </div>
 
+<!-- Omschrijving van de challenge -->
+<h1 class="m-2 text-2xl leading-none text-gray-900">
+    Omschrijving
+</h1>
+<p class="text-gray-900 text-lg m-4 mb-8">
+    Start als groep met het bestuderen van <a
+        href="https://eduofficenl-my.sharepoint.com/:f:/g/personal/m_dackus_vistacollege_nl/EuV8KX8A5llLjjAhuSplUWgBnGKMGPXVq35oo557ikudAQ?e=kfHnAQ"
+        target="_blank" class="underline">
+        bijlage Keuzedelen informatie</a>. Geef iedereen een rol, dat is efficiënt. Daarna ga je verder:
+    Maak de frontend voor alle rollen. (Je mag ook eerst mockups maken).
+    Maak gezamelijk een ERD met behulp van drawsql.app
+</p>
 
 <!-- Tabel met het overzicht van de deliverables. -->
 <h1 class="m-2 text-2xl leading-none text-gray-900">
@@ -38,7 +50,13 @@
     <tbody>
         <tr>
             <td class="border border-gray-300 px-4 py-2">Ontwerp van de database van mbogodigital.nl met de keuzedelen.
-                Gemaakt in drawsql.app. <b>(Individueel)</b></td>
+                Gemaakt in drawsql.app. <b>(Groep)</b></td>
+            <td class="border border-gray-300 px-4 py-2 font-bold text-center">6</td>
+        </tr>
+        <tr>
+            <td class="border border-gray-300 px-4 py-2">Ontwerp van de frontend (views) van de keuzedelen applicatie.
+                <b>(Groep)</b>
+            </td>
             <td class="border border-gray-300 px-4 py-2 font-bold text-center">6</td>
         </tr>
         <tr>
@@ -66,8 +84,9 @@
             <td class="border border-gray-300 px-4 py-2 font-bold text-center">6</td>
         </tr>
         <tr>
-            <td class="border border-gray-300 px-4 py-2">Advies aan directeur mbogodigital: SQL of
-                noSQL voor mbogodigital.nl? <b>(Groep)</b></td>
+            <td class="border border-gray-300 px-4 py-2">Functionele omschrijving voor de rol van de keuzedelen
+                coördinator. Hoe gaat zijn applicatie werken? Zie bijlage keuzedeleninformatie. <b>(Individueel)</b>
+            </td>
             <td class="border border-gray-300 px-4 py-2 font-bold text-center">4</td>
         </tr>
     </tbody>
@@ -91,6 +110,12 @@
             <td class="border border-gray-300 px-4 py-2">ERD in drawsql.app</td>
             <td class="border border-gray-300 px-4 py-2">Export van de ERD in drawsql.app</td>
             <td class="border border-gray-300 px-4 py-2">Geef toelichting bij de export. Welke keuzes heb je gemaakt?
+            </td>
+        </tr>
+        <tr>
+            <td class="border border-gray-300 px-4 py-2">Frontend keuzedelen applicatie</td>
+            <td class="border border-gray-300 px-4 py-2">Screenrecording van de frontend</td>
+            <td class="border border-gray-300 px-4 py-2">Spreek de screenrecording in en leg uit wat je gemaakt hebt.
             </td>
         </tr>
         <tr>
@@ -118,10 +143,11 @@
                 mbogodigital.nl als voorbeeld gebruiken.</td>
         </tr>
         <tr>
-            <td class="border border-gray-300 px-4 py-2">Adviesrapport mbogodigital.nl over keuze SQL vs noSQL</td>
-            <td class="border border-gray-300 px-4 py-2">Emailbericht aan directeur van mbogodigital.nl</td>
-            <td class="border border-gray-300 px-4 py-2">Zorg dat de poster praktische voorbeelden betreft. Je mag
-                mbogodigital.nl als voorbeeld gebruiken.</td>
+            <td class="border border-gray-300 px-4 py-2">Functionele omschrijving voor de rol keuzendelencoördinator
+            </td>
+            <td class="border border-gray-300 px-4 py-2">Word document met de functionele omschrijving.</td>
+            <td class="border border-gray-300 px-4 py-2">Kijk goed naar de vereisten van de keuzedelen coordinator. Maak
+                een omschrijving van de applicatie voor de keuzedelencoordinator.</td>
         </tr>
     </tbody>
 </table>
